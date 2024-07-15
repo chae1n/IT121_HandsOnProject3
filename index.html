@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter | Julia Johnson</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class = "container">
+                <h1 class="logo">J&J</h1>
+                <ul>
+                    <li><a class="current">Temperature Converter</a></li>
+                    <li><a href="task.html">Task Manager</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+</header>
+<div class="container">
+    <h2>J&J Temperature Converter</h2>
+    <form id="tempForm">
+        <label for="tempValue">Temperature:</label>
+        <input type="number" id="tempValue" required>
+        
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        
+        <button type="submit">Convert</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script src="index.js"></script>
+</div>
+</body>    
+
+</head>
+</html>
